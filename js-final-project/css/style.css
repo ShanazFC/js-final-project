@@ -1,0 +1,45 @@
+#name {
+  color: blue;
+}
+
+.inactive {
+	color: white;
+}
+
+
+.completed {
+  text-decoration: line-through;
+}
+
+
+body {
+  font-family: "Source Sans Pro", Franklin Gothic Book, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+   margin: 0px;
+   padding: 20px 20px 200px 20px;
+   background-color: black;
+ }
+
+ .container {max-width: 870px;  overflow: auto; padding: 20px 0px; color: white;}
+li {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted;
+  color: white;
+
+}
+a:hover, .tool-box.available a:hover, .tool-box a:hover {color: red; border-color: #e51b24;}
+
+h1 {font-size: 68px; color: white; display: inline-block; }
+h2 {font-size: 68px; color: red; display: inline-block; }
+p {font-size: 20px; color: red;}
+
+
+img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
